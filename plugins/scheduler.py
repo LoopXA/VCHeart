@@ -280,8 +280,8 @@ async def delete_sch(bot, message):
         else:
             buttons = [
                 [
-                    InlineKeyboardButton('✗ ᴄᴀɴᴄᴇʟ ᴀʟʟ ꜱᴄʜᴇᴅᴜʟᴇꜱ ✗"', callback_data='schcancel'),
-                    InlineKeyboardButton('✗ ɴᴏ ✗"', callback_data='schclose'),
+                    InlineKeyboardButton('✗ ᴄᴀɴᴄᴇʟ ᴀʟʟ ꜱᴄʜᴇᴅᴜʟᴇꜱ ✗', callback_data='schcancel'),
+                    InlineKeyboardButton('✗ ɴᴏ ✗', callback_data='schclose'),
                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
