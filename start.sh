@@ -2,10 +2,10 @@ echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
   echo "Cloning main branch...."
-  git clone https://github.com/LoopXS/VCHeart /VCPlayerBot
+  git clone https://github.com/LoopXA/VCHeart /VCPlayerBot
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/LoopXS/VCHeart -b $BRANCH /VCPlayerBot
+  git clone https://github.com/LoopXA/VCHeart -b $BRANCH /VCPlayerBot
 fi
 cd /VCPlayerBot
 pip3 install -U -r requirements.txt
